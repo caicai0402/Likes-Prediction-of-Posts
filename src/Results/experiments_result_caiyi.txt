@@ -1,0 +1,356 @@
+Start doing experiment1!
+Evaluating...
+Training and Predicting...
+Done! Runtime: 0.05120112 seconds!
+Training and Predicting...
+Done! Runtime: 0.05272821 seconds!
+Training and Predicting...
+Done! Runtime: 0.04751008 seconds!
+Training and Predicting...
+Done! Runtime: 0.04827641 seconds!
+Training and Predicting...
+Done! Runtime: 0.04786031 seconds!
+Training and Predicting...
+Done! Runtime: 0.04932236 seconds!
+Training and Predicting...
+Done! Runtime: 0.04945858 seconds!
+
+Result of LinearRegression(), threshold = 100000 and post-processing = False:
+Default Dataset MAPE: 1.1329214544273283
+6-Fold MAPE Mean: 1.2322090255173108
+Average Runtime: 0.04947957985714283
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.71724268 seconds!
+Training and Predicting...
+Done! Runtime: 1.30830952 seconds!
+Training and Predicting...
+Done! Runtime: 1.70663560 seconds!
+Training and Predicting...
+Done! Runtime: 3.78700016 seconds!
+Training and Predicting...
+Done! Runtime: 1.88143338 seconds!
+Training and Predicting...
+Done! Runtime: 3.48238520 seconds!
+Training and Predicting...
+Done! Runtime: 3.81015349 seconds!
+
+Result of AdaBoostRegressor(random_state=1124), threshold = 100000 and post-processing = False:
+Default Dataset MAPE: 19.6017738541517
+6-Fold MAPE Mean: 17.487425124743083
+Average Runtime: 2.8133085760000003
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 42.87272116 seconds!
+Training and Predicting...
+Done! Runtime: 43.60295979 seconds!
+Training and Predicting...
+Done! Runtime: 42.33884909 seconds!
+Training and Predicting...
+Done! Runtime: 42.61608771 seconds!
+Training and Predicting...
+Done! Runtime: 41.02042401 seconds!
+Training and Predicting...
+Done! Runtime: 41.33371374 seconds!
+Training and Predicting...
+Done! Runtime: 42.37036458 seconds!
+
+Result of RandomForestRegressor(random_state=1124), threshold = 100000 and post-processing = False:
+Default Dataset MAPE: 0.6552066983246468
+6-Fold MAPE Mean: 0.7215911578086346
+Average Runtime: 42.307874298571434
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 9.53589880 seconds!
+Training and Predicting...
+Done! Runtime: 9.14050948 seconds!
+Training and Predicting...
+Done! Runtime: 9.81601350 seconds!
+Training and Predicting...
+Done! Runtime: 10.54520431 seconds!
+Training and Predicting...
+Done! Runtime: 9.44420834 seconds!
+Training and Predicting...
+Done! Runtime: 9.27278274 seconds!
+Training and Predicting...
+Done! Runtime: 8.45944526 seconds!
+
+Result of LinearSVR(random_state=1124), threshold = 100000 and post-processing = False:
+Default Dataset MAPE: 2.4400780218337577
+6-Fold MAPE Mean: 1.5042591875722617
+Average Runtime: 9.459151774714273
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 188.07039803 seconds!
+Training and Predicting...
+Done! Runtime: 190.39865539 seconds!
+Training and Predicting...
+Done! Runtime: 190.04045097 seconds!
+Training and Predicting...
+Done! Runtime: 189.71381359 seconds!
+Training and Predicting...
+Done! Runtime: 186.44187887 seconds!
+Training and Predicting...
+Done! Runtime: 191.34421903 seconds!
+Training and Predicting...
+Done! Runtime: 193.01368909 seconds!
+
+Result of SVR(), threshold = 100000 and post-processing = False:
+Default Dataset MAPE: 0.6739419875474038
+6-Fold MAPE Mean: 0.6792495527550165
+Average Runtime: 189.86044356542862
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 2.68985904 seconds!
+Training and Predicting...
+Done! Runtime: 3.18056766 seconds!
+Training and Predicting...
+Done! Runtime: 3.06846835 seconds!
+Training and Predicting...
+Done! Runtime: 2.94952746 seconds!
+Training and Predicting...
+Done! Runtime: 3.03166203 seconds!
+Training and Predicting...
+Done! Runtime: 3.17120390 seconds!
+Training and Predicting...
+Done! Runtime: 3.31522455 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 100000 and post-processing = False:
+Default Dataset MAPE: 0.6286362344822498
+6-Fold MAPE Mean: 0.6815725212956143
+Average Runtime: 3.0580732852857375
+
+Start doing experiment2!
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.53633857 seconds!
+Training and Predicting...
+Done! Runtime: 3.58524372 seconds!
+Training and Predicting...
+Done! Runtime: 3.33949144 seconds!
+Training and Predicting...
+Done! Runtime: 3.21126082 seconds!
+Training and Predicting...
+Done! Runtime: 3.37083425 seconds!
+Training and Predicting...
+Done! Runtime: 3.75057078 seconds!
+Training and Predicting...
+Done! Runtime: 3.83012044 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 300 and post-processing = False:
+Default Dataset MAPE: 0.4983032461401353
+6-Fold MAPE Mean: 0.5254680795767518
+Average Runtime: 3.5176942878571418
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.86311393 seconds!
+Training and Predicting...
+Done! Runtime: 3.28998332 seconds!
+Training and Predicting...
+Done! Runtime: 3.11569019 seconds!
+Training and Predicting...
+Done! Runtime: 3.44402796 seconds!
+Training and Predicting...
+Done! Runtime: 3.31356266 seconds!
+Training and Predicting...
+Done! Runtime: 3.85605410 seconds!
+Training and Predicting...
+Done! Runtime: 3.76594254 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 400 and post-processing = False:
+Default Dataset MAPE: 0.5202210212870708
+6-Fold MAPE Mean: 0.5529366643332816
+Average Runtime: 3.5211963838571267
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.41369594 seconds!
+Training and Predicting...
+Done! Runtime: 3.49724417 seconds!
+Training and Predicting...
+Done! Runtime: 3.19292959 seconds!
+Training and Predicting...
+Done! Runtime: 3.42212930 seconds!
+Training and Predicting...
+Done! Runtime: 3.22985380 seconds!
+Training and Predicting...
+Done! Runtime: 3.13475958 seconds!
+Training and Predicting...
+Done! Runtime: 3.32063137 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 500 and post-processing = False:
+Default Dataset MAPE: 0.5300621927713682
+6-Fold MAPE Mean: 0.5654587561903831
+Average Runtime: 3.3158919619999585
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.11666273 seconds!
+Training and Predicting...
+Done! Runtime: 3.15574338 seconds!
+Training and Predicting...
+Done! Runtime: 3.11961366 seconds!
+Training and Predicting...
+Done! Runtime: 3.71759958 seconds!
+Training and Predicting...
+Done! Runtime: 3.32696076 seconds!
+Training and Predicting...
+Done! Runtime: 3.32122078 seconds!
+Training and Predicting...
+Done! Runtime: 3.46808220 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 600 and post-processing = False:
+Default Dataset MAPE: 0.5366022242640576
+6-Fold MAPE Mean: 0.5783596811739143
+Average Runtime: 3.3179833008571222
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.08276534 seconds!
+Training and Predicting...
+Done! Runtime: 3.03097212 seconds!
+Training and Predicting...
+Done! Runtime: 2.97074390 seconds!
+Training and Predicting...
+Done! Runtime: 3.19896894 seconds!
+Training and Predicting...
+Done! Runtime: 3.44747375 seconds!
+Training and Predicting...
+Done! Runtime: 3.68420009 seconds!
+Training and Predicting...
+Done! Runtime: 3.53764764 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 700 and post-processing = False:
+Default Dataset MAPE: 0.5602698216056972
+6-Fold MAPE Mean: 0.5869083280373882
+Average Runtime: 3.278967396714279
+
+Evaluating...
+Training and Predicting...
+Done! Runtime: 3.81790901 seconds!
+Training and Predicting...
+Done! Runtime: 3.24696270 seconds!
+Training and Predicting...
+Done! Runtime: 3.61821801 seconds!
+Training and Predicting...
+Done! Runtime: 3.51253807 seconds!
+Training and Predicting...
+Done! Runtime: 3.88176189 seconds!
+Training and Predicting...
+Done! Runtime: 4.32911918 seconds!
+Training and Predicting...
+Done! Runtime: 3.70375756 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 800 and post-processing = False:
+Default Dataset MAPE: 0.5598131187109239
+6-Fold MAPE Mean: 0.6023141216674242
+Average Runtime: 3.7300380592857243
+
+Start doing experiment3!
+Evaluating...
+Training and Predicting...
+Done! Runtime: 4.23154976 seconds!
+Training and Predicting...
+Done! Runtime: 3.57136138 seconds!
+Training and Predicting...
+Done! Runtime: 3.90719757 seconds!
+Training and Predicting...
+Done! Runtime: 3.98830267 seconds!
+Training and Predicting...
+Done! Runtime: 5.55573862 seconds!
+Training and Predicting...
+Done! Runtime: 5.08243657 seconds!
+Training and Predicting...
+Done! Runtime: 3.89429871 seconds!
+
+Result of XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric='mape', feature_types=None,
+             gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=None, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=6, max_leaves=None,
+             min_child_weight=None, missing=nan, monotone_constraints=None,
+             n_estimators=100, n_jobs=None, num_parallel_tree=None,
+             predictor=None, random_state=1124, ...), threshold = 600 and post-processing = True:
+Default Dataset MAPE: 0.3306413384410067
+6-Fold MAPE Mean: 0.31711836733990156
+Average Runtime: 4.318697896714314
+
